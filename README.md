@@ -38,5 +38,6 @@ Using DMRG and Julia ITensor package, we can compute groundstates of the $N$-sit
 
 - $S_{\pi} = \frac{1}{N^2}\sum_{i,j} (-1)^{|i-j|} \left< \hat{n}_i \hat{n}_j\right>$ - structure factor
 
+![Extended Bose-Hubbard model phase diagram](https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/PhaseDiagramEBHM_navg.png)
 
 
