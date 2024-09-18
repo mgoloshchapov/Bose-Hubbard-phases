@@ -39,19 +39,35 @@ Using DMRG and Julia ITensor package, we can compute groundstates of the $N$-sit
 
 - $S_{\pi} = \frac{1}{N^2}\sum_{i,j} (-1)^{|i-j|} \left< \hat{n}_i \hat{n}_j\right>$ - structure factor
 
-![Extended Bose-Hubbard model phase diagram](https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/PhaseDiagramEBHM_navg.png) 
-Phase diagram of extended Bose-Hubbard model. Upper the white stripped line: correlator is taken to be $\delta n = \left|n - 1.0 \right|$ to detect Mott insulator with average filling equal to one; lower the white stripped line: correlator is taken to be $\delta n = \left|n - 0.5 \right|$ to detect density wave phase with average filling equal to one half. 
+
+<p float="middle">
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/PhaseDiagramEBHM_navg.png" width="1200" />
+  <em>Phase diagram of extended Bose-Hubbard model. Upper the white stripped line: correlator is taken to be |n - 1.0| to detect Mott insulator with average filling equal to one; lower the white stripped line: correlator is taken to be |n - 0.5| to detect density wave phase with average filling equal to one half. 
+ </em>
+</p>
 
 
-![Edge states](https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/edge_states.png)
-Haldane insulator phase is detected by appearance of edge states in the region, where Mott insulator is expected. Left: Mott insulator occupation numbers; right: Haldane insulator occupation numbers. 
+<p float="middle">
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/edge_states.png" width="1200" />
+  <em>Haldane insulator phase is detected by appearance of edge states in the region, where Mott insulator is expected. Left: Mott insulator occupation numbers; right: Haldane insulator occupation numbers. </em>
+</p>
 
 
 Mott insulator is characterized by exponential decay of correlation function $\Gamma(r) \sim e^{-r/\xi}$, while superfluid phase demonstrates polynomial decay $\Gamma(r) \sim r^{-K/2}$. Correlation lengths $\xi, K$ can be extracted by fitting  $\Gamma(r)$ with exponent and polynomial. 
 
-
-<p float="left">
-  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_lengths.png" width="100" />
-  <em>image_caption</em>
+<p float="middle">
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_function_SF.png" width="400" />
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_function_MI.png" width="400" />
+  <em>Left: polynomial decay of correlation function manifests superfluid phase with long-range correlations; right: Mott insulator phase with exponential decay of correlation function and short-range correlations.</em>
 </p>
+
+We can also plot phase diagrams using correlation lenghts as order parameters
+
+<p float="middle">
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_lengths.png" width="1200" />
+  <em>Left: exponential correlation length; right: polynomial correlation length. Both order parameters show that there are two different phases.</em>
+</p>
+
+
+
 
