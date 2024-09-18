@@ -47,8 +47,15 @@ Using DMRG and Julia ITensor package, we can compute groundstates of the $N$-sit
 </p>
 
 
+Slight change in average occupation number in the Mott insulator region poses a question whether this is a numerical error or a new phase. If you think for a while about the possible source of a change in average occupation number on a level $10^{-2}-10^{-1}$ in a chain of size $N=51$, you might end up with the idea that there is some contribution from the edge states.
+
+<p float="left">
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/CDW_signatures.png" width="1000" />
+  <em> Dependence of different correlators on chemical potential, crossing MI, SF, DW and HI phases. </em>
+</p>
+
 <p float="middle">
-  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/edge_states.png" width="1200" />
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/edge_states.png" width="1000" />
   <em>Haldane insulator phase is detected by appearance of edge states in the region, where Mott insulator is expected. Left: Mott insulator occupation numbers; right: Haldane insulator occupation numbers. </em>
 </p>
 
@@ -65,9 +72,13 @@ We can also plot phase diagrams using correlation lenghts as order parameters
 
 <p float="middle">
   <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_lengths.png" width="1200" />
-  <em>Left: exponential correlation length; right: polynomial correlation length. Both order parameters show that there are two different phases.</em>
+  <em> Bose-Hubbard phase diagram. Left: exponential correlation length; right: polynomial correlation length. Both order parameters show that there are two different phases.</em>
 </p>
 
 
+<p float="middle">
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/PhaseDiagramEBHM_xi.png" width="1200" />
+  <em> Extended Bose-Hubbard phase diagram with exponential correlation length as order parameter.</em>
+</p>
 
 
