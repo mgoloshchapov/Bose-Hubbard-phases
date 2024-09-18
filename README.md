@@ -51,7 +51,7 @@ Mott insulator is characterized by exponential decay of correlation function $\G
 
 
 <p float="left">
-  <img src="results/correlation_function_SF.pdf" width="100" />
-  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_function_SF.pdf" width="100" />
+  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_lengths.png" width="100" />
+  <em>image_caption</em>
 </p>
 
