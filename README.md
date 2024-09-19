@@ -62,11 +62,7 @@ Slight change in average occupation number in the Mott insulator region poses a 
 
 Mott insulator is characterized by exponential decay of correlation function $\Gamma(r) \sim e^{-r/\xi}$, while superfluid phase demonstrates polynomial decay $\Gamma(r) \sim r^{-K/2}$. Correlation lengths $\xi, K$ can be extracted by fitting  $\Gamma(r)$ with exponent and polynomial. 
 
-<p float="middle">
-  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_function_SF.png" width="400" />
-  <img src="https://github.com/mgoloshchapov/Bose-Hubbard-phases/blob/main/results/correlation_function_MI.png" width="400" />
-  <em>Left: polynomial decay of correlation function manifests superfluid phase with long-range correlations; right: Mott insulator phase with exponential decay of correlation function and short-range correlations.</em>
-</p>
+
 
 We can also plot phase diagrams using correlation lenghts as order parameters
 
